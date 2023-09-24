@@ -393,51 +393,11 @@
         </div>
       </div>
     </footer>
-
-     <h1>Enter number to create account</h1>
-    <form>
-      <input type="text" id="number" placeholder="+923********" />
-      <div id="recaptcha-container"></div>
-      <button type="button" onclick="phoneAuth();">SendCode</button>
-    </form>
-    <br />
-    <h1>Enter Verification codex</h1>
-    <form>
-      <input
-        type="text"
-        id="verificationCode"
-        placeholder="Enter verification code"
-      />
-      <button type="button" onclick="codeverify();">Verify code</button>
-    </form>
-
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#config-web-app -->
-
-    <script>
-      // Your web app's Firebase configuration
-      const firebaseConfig = {
-        apiKey: 'AIzaSyCTTp__UCpYLw98HZ3TOdU65RY4UJ3z0Lc',
-        authDomain: 'rioplata-46c0f.firebaseapp.com',
-        projectId: 'rioplata-46c0f',
-        storageBucket: 'rioplata-46c0f.appspot.com',
-        messagingSenderId: '414246146151',
-        appId: '1:414246146151:web:305386671cc0567733c4c2',
-        measurementId: 'G-09Q6Y8BD0Y',
-      };
-
-      // Initialize Firebase
-      const app = initializeApp(firebaseConfig);
-      const analytics = getAnalytics(app);
-
+    
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/main-nav.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/all.js"></script>
-    <script src="assets/js/NumberAuthentication.js"></script>
   </body>
 </html>
